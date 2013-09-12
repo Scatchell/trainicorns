@@ -1,0 +1,14 @@
+!!!html
+%html{lang: "en"}
+  %head
+    %title {{ page.title }}
+
+  %body
+    .objectives
+      %h2 Objectives
+      %ul.objectives
+        {% for objective in page.objectives %}
+        %li {{ objective }}
+        {% endfor %}
+
+    {{ content }}
