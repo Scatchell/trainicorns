@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>{{ page.title }}</title>
+    </head>
+    <body>
+        <div class="objectives">
+            <h2>Objectives</h2>
+            <ul class="objectives">
+                {% for objective in page.objectives %}
+                    <li>{{ objective }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {{ content }}
+    </body>
+</html>
