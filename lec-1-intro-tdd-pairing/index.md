@@ -4,9 +4,9 @@ objectives:
     - Understand that this boot camp is taught using the Socratic method and
       focuses on hands-on labs.
     - Discuss the class contract and commit to following it throughout.
-    - Understand basic OO terminology and coding standards.
-    - Be able to define the job of a class.
-    - Understand encapsulation.
+    - Become familiar with pair programming.
+    - Become familiar with TDD.
+    - Become familiar with version control.
 labs:
     - lab-1-rectangle
 
@@ -28,6 +28,9 @@ This bootcamp teaches specific ways to think about objects and programming
 that may be very different that what you are used to. Through the numerous labs
 and discussions we hope that you will see value of this perspective and the
 value of the practices we introduce.
+
+Point out that nothing we teach in bootcamp is **law**. Every rule can be
+broken and students should feel free to challenge instructors.
 
 Introductions
 -------------
@@ -96,34 +99,43 @@ Test Driven Development
 Explain that the class will be taught strictly using TDD throughout. Open the
 discussion by asking what TDD is? How does it affect the code you write?
 
+It might be worth touching on "what a unit test" is at this point, depending on
+the knowledge level of the class.
+
+The laws of TDD:
+
+* You are not allowed to write any production code unless it is to make a
+    failing unit test pass.
+* You are not allowed to write any more of a unit test than is sufficient to
+    fail; and compilation errors are failures.
+* You are not allowed to write any more production code than is sufficient to
+    pass the one failing unit test.
+
+Explain that TDD is a series of very small iterative steps. This comes with
+several important positives. Remember, **developers should be lazy**. Only do
+the minimum necessary to make a test pass (and thus the code "work").
+
+* All code is testable -- by definition.
+* All modules are forced to be decoupled.
+* This drives your design in a positive direction.
+
 Explain the cycle:
 
 * Red
 * Green
 * Refactor
 
-Ask the students what color the bar should be when starting each phase: 
+Ask the students what color the bar should be when starting each phase:
+
 * Write a failing test (*green*)
 * Write the code to make the test pass (*red*)
 * Refactor (*green*)
 
-Ask the students to define refactoring: The process of changing a software
-system in such a way that it does not alter the external behavior of the code
-yet improves its internal structure. 
+Pairing
+-------
 
-Ask why we refactor: 
-
-* Remove duplication 
-* More clearly express intent 
-* Make more maintainable 
-* Broken windows. If the students are unfamiliar with the theory of broken
-    windows, introduce it. 
-
-Pairing Conversation 
---------------------
-
-Open with a discussion on pairing. Start by asking what they think it means,
-then move on to a discussion about common misconceptions.
+Start by asking what they think it means, then move on to a discussion about
+common misconceptions.
 
 * Takes longer
 * Expensive
@@ -132,6 +144,12 @@ then move on to a discussion about common misconceptions.
 
 Address these and other concerns that they might have and explain the benefits.
 
+* Strategic vs. tactical thinking
+* Mentoring & upskilling
+* Reduce knowledge silos and bus factors
+* Produce better (less bugs) code
+* Fun!
+
 Discuss how we have to agree that when pairing, we're in a safe environment.
 
 * No telling your pair they're an idiot, or insulting them.
@@ -139,11 +157,37 @@ Discuss how we have to agree that when pairing, we're in a safe environment.
 * Communication and discussion is the most important thing while pairing.
     Neither driver nor navigator should be silent.
 
-Discuss some pairing styles: 
+Discuss some pairing styles:
 
-* Least experienced person drives 
+* Least experienced person drives
 * Ping pong: one person writes a failing test, other fixes it by writing code
-    and writes the next test, repeat 
+    and writes the next test, repeat
 * Ball and board: one person runs mouse the other runs the keyboard.
 * Two different keyboards, mice, and monitors.
 * Switch frequently.
+
+Version Control
+---------------
+
+Talk about how we will be using version control throughout this course. Ask
+first if anyone is familiar with VCS, then ask why we might use them.
+
+* Never be afraid of losing work.
+* Allows rolling back (broken) deploys to previous (working) versions.
+* Allows working on several different features (branches) at the same time.
+* See who made what changes and when.
+* Facilitate working with larger teams.
+
+Briefly discuss simple git commands
+
+* `git init`
+* `git status`
+* `git log`
+* `git add`
+* `git rm`
+* `git commit`
+
+And, possibly if you're feeling bold:
+
+* `git push`
+* `git pull`
