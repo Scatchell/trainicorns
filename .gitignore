@@ -19,3 +19,4 @@ doc/
 *.swp
 *.swo
 .DS_Store
+_site

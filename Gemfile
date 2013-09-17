@@ -2,9 +2,7 @@ source "https://rubygems.org"
 
 gem 'rake'
 gem 'psych'
-gem 'jekyll'
-gem 'jekyll-haml'
-gem 'jekyll-sass'
+gem 'github-pages'
 
 gem 'heroku'
 gem 'rack-contrib'
