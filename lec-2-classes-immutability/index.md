@@ -9,8 +9,7 @@ labs:
 
 ---
 
-Equality or Identity
---------------------
+## Equality or Identity
 
 Most modern languages have the concept of object *equality* build into them,
 based on the object's reference.
@@ -29,10 +28,9 @@ e.g. (memory addresses made up)
 `Chance<1/2>@2a2a2a2a` is not **equal** to `Chance<1/2>@1a1a1a1a`, however they
 have the same **identity**.
 
-**At this point, break to [lab 2](/lab-2-chance)**
+### (At this point, break to [lab 2](../lab-2-chance))
 
-Immutability
-------------
+## Immutability
 
 Start by asking the class what immutability is? How many of them have ever
 heard about immutability?

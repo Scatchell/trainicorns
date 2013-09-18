@@ -14,8 +14,7 @@ labs:
 
 ---
 
-Welcome
--------
+## Welcome
 
 Welcome to the first day of bootcamp!
 
@@ -34,8 +33,7 @@ value of the practices we introduce.
 Point out that nothing we teach in bootcamp is **law**. Every rule can be
 broken and students should feel free to challenge instructors.
 
-Introductions
--------------
+## Introductions
 
 Have each person introduce themselves:
 
@@ -46,8 +44,7 @@ Have each person introduce themselves:
    * Fears, hopes & questions
 
 
-Contract
---------
+## Contract
 
 * No playing on phones & laptops
 * Silence mobile phones
@@ -55,8 +52,7 @@ Contract
 * Show up on time (if you don't, you owe everyone coffee)
 
 
-Shape of the Class
-------------------
+## Shape of the Class
 
 The class is taught using the Socratic method. The expectation is that students
 will work to teach themselves.
@@ -83,8 +79,7 @@ to have their code shown.
 __Be cautious of giving out too much information as it could impede the
 Socratic Method.__
 
-Outline of the Class
---------------------
+## Outline of the Class
 
 * Agile practices (TDD and pair programming)
 * Encapsulation
@@ -95,8 +90,7 @@ Outline of the Class
 * Refactoring
 * Recursion
 
-Test Driven Development
------------------------
+## Test Driven Development
 
 Explain that the class will be taught strictly using TDD throughout. Open the
 discussion by asking what TDD is? How does it affect the code you write?
@@ -133,8 +127,7 @@ Ask the students what color the bar should be when starting each phase:
 * Write the code to make the test pass (*red*)
 * Refactor (*green*)
 
-Pairing
--------
+## Pairing
 
 Start by asking what they think it means, then move on to a discussion about
 common misconceptions.
@@ -168,8 +161,7 @@ Discuss some pairing styles:
 * Two different keyboards, mice, and monitors.
 * Switch frequently.
 
-Version Control
----------------
+## Version Control
 
 Talk about how we will be using version control throughout this course. Ask
 first if anyone is familiar with VCS, then ask why we might use them.
@@ -194,8 +186,7 @@ And, possibly if you're feeling bold:
 * `git push`
 * `git pull`
 
-Introduction to Objects
------------------------
+## Introduction to Objects
 
 **Single Responsibility Principle**
 

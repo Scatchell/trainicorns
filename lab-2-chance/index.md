@@ -8,8 +8,7 @@ objectives:
 
 ---
 
-Part 1 - What's Not to Like
-===========================
+## Part 1 - What's Not to Like
 
 *(1 hour, 15 mins design, 30 mins code, 15 mins discussion)*
 
@@ -50,8 +49,7 @@ to test `not()` students have to have an `equals()` method - ergo the
 `equals()` method is the first thing that students should have tested)
 
 
-Part 2 - And, But
-=================
+## Part 2 - And, But
 
 After discussing the previous section about `not()`, ask students to implement
 two more methods: `and()` and `or()`

@@ -7,8 +7,7 @@ objectives:
 
 ---
 
-Part 1 - It's Dangerous to Go Alone
-===================================
+## Part 1 - It's Dangerous to Go Alone
 
 *(30 mins)*
 
@@ -35,16 +34,14 @@ class to the world, and the only thing we want to expose is behavior.
 Behavior is something the class *does*, data is something the class *is*.
 Anytime you see a getter, a setter, or a public field it should be a smell.
 
-Part 2 - Adding Some Requirements
-=================================
+## Part 2 - Adding Some Requirements
 
 *(20 mins)*
 
 Now ask the students to add `area()` and `perimeter()` methods to their
 rectangle.
 
-Part 3 - Rectangles Are For Squares
-===================================
+## Part 3 - Rectangles Are For Squares
 
 *(30 mins)*
 
