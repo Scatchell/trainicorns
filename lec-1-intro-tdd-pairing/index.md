@@ -7,6 +7,8 @@ objectives:
     - Become familiar with pair programming.
     - Become familiar with TDD.
     - Become familiar with version control.
+    - Understand the single responsibility principle.
+    - Understand the value of DRY (don't repeat yourself).
 labs:
     - lab-1-rectangle
 
@@ -191,3 +193,46 @@ And, possibly if you're feeling bold:
 
 * `git push`
 * `git pull`
+
+Introduction to Objects
+-----------------------
+
+**Single Responsibility Principle**
+
+A class should only have one reason to change.
+
+As an example, consider a class that both compiles and prints a report. Such a
+class can be changed for two reasons.
+
+1. The content of the report can change.
+2. The format of the report can change.
+
+These two things change for very different reasons; one changes data, and one
+changes the way it's presented.
+
+The single responsibility principle says that these two aspects of the problem
+are actually separate, and therefore should be in separate classes. It would be
+a bad design to couple two things that change for different reasons at
+different times.
+
+Ask why we care about single responsbility?
+
+* Makes the class more robust *(e.g. if there's a change in compilation it's
+    likely to break presentation when both responsibilities are coupled)*
+* Manages complexity by making many small, simple pieces
+
+**Don't Repeat Yourself**
+
+Often abbreviated to *DRY*. Find and eliminate duplication whenever you can.
+
+Ask why we want to reduce duplication?
+
+* Only having to change things in one place reduces likelihood of errors.
+* A modification of any single element of a system does not require a change in
+    other logically unrelated elements.
+* Related elements change predictably.
+* Why type more or do more work than you have to?
+
+DRY applies to more than just code: database schema design, object modeling,
+tests, documentation, just about everything!
+
