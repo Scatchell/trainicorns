@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Lab 1 - Rectangle
+type: lab
 objectives:
     - Understand basic OO terminology and coding standards.
     - Be able to define the job of a class.

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Lab 2 - Chance
+type: lab
 objectives:
     - Start learning to use the IDE
     - Understand the value of custom classes over primitives

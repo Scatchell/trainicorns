@@ -3,9 +3,21 @@ layout: default
 ---
 <img style="display: block; margin: 0 auto;" src="assets/images/trainicorn.png">
 
-<ul>
+<h2>Lectures</h2>
+<ul class="lectures">
 {% for p in site.pages %}
-{% if p.title %}
+{% if p.type == 'lecture' %}
+<li>
+    <a href="{{ p.url }}" title="{{ p.title }}">{{ p.title}}</a>
+</li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<h2>Labs</h2>
+<ul class="labs">
+{% for p in site.pages %}
+{% if p.type == 'lab' %}
 <li>
     <a href="{{ p.url }}" title="{{ p.title }}">{{ p.title}}</a>
 </li>
