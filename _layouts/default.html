@@ -13,6 +13,7 @@
                 </div>
             </nav>
 
+            {% if page.objectives %}
             <div class="objectives jumbotron">
                 <h2>Objectives</h2>
                 <ul class="objectives">
@@ -21,6 +22,7 @@
                     {% endfor %}
                 </ul>
             </div>
+            {% endif %}
             {{ content }}
         </div>
     </body>

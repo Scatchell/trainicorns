@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Lecture 2 - Equality & Identity
 objectives:
     - Understand immutability in objects and why it's useful.
     - Understand some of the negatives of immutability.

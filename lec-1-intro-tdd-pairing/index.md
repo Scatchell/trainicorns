@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Lecture 1 - Introduction
 objectives:
     - Understand that this boot camp is taught using the Socratic method and
       focuses on hands-on labs.

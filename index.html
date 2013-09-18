@@ -1,9 +1,15 @@
-<!DOCTYPE html>
-<html lang='en'>
-    <head>
-        <title>You lost, bro?</title>
-    </head>
-    <body>
-        <img style="display: block; margin: 0 auto;" src="assets/images/trainicorn.png">
-    </body>
-</html>
+---
+layout: default
+---
+<img style="display: block; margin: 0 auto;" src="assets/images/trainicorn.png">
+
+<ul>
+{% for p in site.pages %}
+{% if p.title %}
+<li>
+    <a href="{{ p.url }}" title="{{ p.title }}">{{ p.title}}</a>
+</li>
+{% endif %}
+{% endfor %}
+</ul>
+
