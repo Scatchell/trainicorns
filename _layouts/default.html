@@ -2,16 +2,26 @@
 <html lang='en'>
     <head>
         <title>{{ page.title }}</title>
+        <link href="/assets/css/bootstrap.css" rel="stylesheet">
+        <link href="/assets/css/style.css" rel="stylesheet">
     </head>
     <body>
-        <div class="objectives">
-            <h2>Objectives</h2>
-            <ul class="objectives">
-                {% for objective in page.objectives %}
+        <div class="container">
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/">Bootcamp Lesson Plans</a>
+                </div>
+            </nav>
+
+            <div class="objectives jumbotron">
+                <h2>Objectives</h2>
+                <ul class="objectives">
+                    {% for objective in page.objectives %}
                     <li>{{ objective }}</li>
-                {% endfor %}
-            </ul>
+                    {% endfor %}
+                </ul>
+            </div>
+            {{ content }}
         </div>
-        {{ content }}
     </body>
 </html>
