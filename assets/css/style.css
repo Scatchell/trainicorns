@@ -2,3 +2,30 @@ body {
     font-size: 14pt;
     padding-top: 70px;
 }
+
+table td, table th {
+    padding: 5px 25px;
+}
+
+table thead {
+    background-color: #eee;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr {
+    border-bottom: 1px solid #eee;
+}
+
+table {
+    margin: 50px auto;
+    border: 1px solid #ddd;
+}
+
+p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+pre {
+    margin: 50px auto;
+}
