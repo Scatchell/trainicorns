@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-<img style="display: block; margin: 0 auto;" src="/assets/images/trainicorn.png">
+<img style="display: block; margin: 0 auto;" src="{{ site.baseurl }}/assets/images/trainicorn.png">
 
 {% for p in site.pages %}
 {% if p.title == 'Lecture 1 - Introduction' %}
-    <p style="text-align: center">(start with <a href="{{ p.url }}">lecture 1</a> if you're not sure where to go from here)</p>
+    <p style="text-align: center">(start with <a href="{{ site.baseurl }}{{ p.url }}">lecture 1</a> if you're not sure where to go from here)</p>
 {% endif %}
 {% endfor %}
 
@@ -14,7 +14,7 @@ layout: default
 {% for p in site.pages %}
 {% if p.type == 'lecture' %}
 <li>
-    <a href="{{ p.url }}" title="{{ p.title }}">{{ p.title}}</a>
+<a href="{{ site.baseurl }}{{ p.url }}" title="{{ p.title }}">{{ p.title}}</a>
 </li>
 {% endif %}
 {% endfor %}
@@ -25,7 +25,7 @@ layout: default
 {% for p in site.pages %}
 {% if p.type == 'lab' %}
 <li>
-    <a href="{{ p.url }}" title="{{ p.title }}">{{ p.title}}</a>
+    <a href="{{ site.baseurl }}{{ p.url }}" title="{{ p.title }}">{{ p.title}}</a>
 </li>
 {% endif %}
 {% endfor %}
@@ -36,7 +36,7 @@ layout: default
 {% for p in site.pages %}
 {% if p.type == 'misc' %}
 <li>
-    <a href="{{ p.url }}" title="{{ p.title }}">{{ p.title}}</a>
+    <a href="{{ site.baseurl }}{{ p.url }}" title="{{ p.title }}">{{ p.title}}</a>
 </li>
 {% endif %}
 {% endfor %}
