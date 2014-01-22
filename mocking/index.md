@@ -22,7 +22,7 @@ Ask if they have heard of mocking? Why is might be useful?
 5. Test database applications without having to spin up DB
 5. Test around functionality that is untestable (i.e. Randomization or nearly random functionality)
 
-I usually show the calculator example live to help explain the concept [(download calculator example tar here)](/assets/files/calculator-mocking.tar) - this has several parts which are all separate git commits to try to make it easy for the trainer to review the material before doing it live.
+I usually show the calculator example live to help explain the concept [(download calculator example tar here)]({{ page.baseurl }}/assets/files/calculator-mocking.tar) - this has several parts which are all separate git commits to try to make it easy for the trainer to review the material before doing it live.
 
 Step 1: Show calculator app with failing test which tries to test the "multiply by random number" functionality (this stage is in the first commit in the above project)
   - Explain why the random function can't be tested well without some kind of mocking framework
@@ -41,7 +41,7 @@ Step 4: Might be useful to add more logic, like doing something special if the n
 ###Section 2:
 
 ####Example:
-We used the warehouse order example from Martin Fowlers book [(download sample code here)](/assets/files/warehouse-mocking.tar) - check the git repo included with this download to see the different stages of the example.
+We used the warehouse order example from Martin Fowlers book [(download sample code here)]({{ page.baseurl }}/assets/files/warehouse-mocking.tar) - check the git repo included with this download to see the different stages of the example.
 
     public class OrderStateTester extends TestCase {
       private static String TALISKER = "Talisker";
@@ -123,6 +123,6 @@ Go over syntax for Mockito on [their website](http://docs.mockito.googlecode.com
 
 ###Section 4:
 
-If there is time, you can let them do zen example [(download here)](/assets/files/zen-mocking-example.tar) in pairs, then have them show their code afterwards.
+If there is time, you can let them do zen example [(download here)]({{ page.baseurl }}/assets/files/zen-mocking-example.tar) in pairs, then have them show their code afterwards.
 
 This example asks them to mock a third party service which they know nothing about. Again, use the git repository to go back to the state where there are failing tests (it is random, so they will pass sometimes), and ask them to use mocks to make the tests pass consistently.
