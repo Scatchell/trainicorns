@@ -1,7 +1,7 @@
 ---
 layout: default
 title: JavaScript Intro
-type: lecture
+type: misc
 
 ---
 

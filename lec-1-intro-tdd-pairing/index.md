@@ -13,8 +13,11 @@ objectives:
     - Understand the value of DRY (don't repeat yourself).
 labs:
     - lab-1-rectangle
-
 ---
+
+The following content can be followed from the following slides (notes included) if you wish:
+
+[Bootcamp OO Principles slides](https://www.dropbox.com/s/khp4g881nh4xu2o/oo_principles_w_bootcamp_slides.pptx)
 
 ## Welcome
 
@@ -49,6 +52,7 @@ Have each person introduce themselves:
 ## Contract
 
 * No playing on phones & laptops
+  * Keeping laptops closed during presentations is a big problem...be strict about it
 * Silence mobile phones
 * No side discussions
 * Show up on time (if you don't, you owe everyone coffee)
@@ -162,31 +166,6 @@ Discuss some pairing styles:
 * Ball and board: one person runs mouse the other runs the keyboard.
 * Two different keyboards, mice, and monitors.
 * Switch frequently.
-
-## Version Control
-
-Talk about how we will be using version control throughout this course. Ask
-first if anyone is familiar with VCS, then ask why we might use them.
-
-* Never be afraid of losing work.
-* Allows rolling back (broken) deploys to previous (working) versions.
-* Allows working on several different features (branches) at the same time.
-* See who made what changes and when.
-* Facilitate working with larger teams.
-
-Briefly discuss simple git commands
-
-* `git init`
-* `git status`
-* `git log`
-* `git add`
-* `git rm`
-* `git commit`
-
-And, possibly if you're feeling bold:
-
-* `git push`
-* `git pull`
 
 ## Introduction to Objects
 
