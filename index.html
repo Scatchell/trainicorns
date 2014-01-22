@@ -3,6 +3,12 @@ layout: default
 ---
 <img style="display: block; margin: 0 auto;" src="assets/images/trainicorn.png">
 
+{% for p in site.pages %}
+{% if p.title == 'Lecture 1 - Introduction' %}
+    <p style="text-align: center">(start with <a href="{{ p.url }}">lecture 1</a> if you're not sure where to go from here)</p>
+{% endif %}
+{% endfor %}
+
 <h2>Lectures</h2>
 <ul class="lectures">
 {% for p in site.pages %}

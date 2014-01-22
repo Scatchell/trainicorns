@@ -15,9 +15,9 @@ labs:
     - lab-1-rectangle
 ---
 
-The following content can be followed from the following slides (notes included) if you wish:
+A good way to start is by reading and understanding the following supplementary content, and then going through the [these slides](/assets/files/oo_principles_w_bootcamp_slides.pptx) (notes included) if you wish.
 
-[Bootcamp OO Principles slides](https://www.dropbox.com/s/khp4g881nh4xu2o/oo_principles_w_bootcamp_slides.pptx)
+Bootcamp exercise materials and programming problems/solutions can be found [here, on wazokazi](https://confluence.wazokazi.com//display/Training/Object+Boot+Camp), at least until we manage to port all of it to this (much better) site.
 
 ## Welcome
 
