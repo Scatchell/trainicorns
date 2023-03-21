@@ -1,4 +1,4 @@
 trainicorns
 ===========
 
-Corresponding github page: http://thoughtworksinc.github.io/Trainicorns/
+Corresponding github page: https://scatchell.github.io/trainicorns/
