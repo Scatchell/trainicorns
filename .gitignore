@@ -20,3 +20,4 @@ doc/
 *.swo
 .DS_Store
 _site
+.idea/
